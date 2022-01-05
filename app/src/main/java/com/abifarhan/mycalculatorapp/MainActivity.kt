@@ -73,8 +73,12 @@ fun TopHeader() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            Text(text = "Total Per Person")
-            Text(text = "$134")
+            Text(text = "Total Per Person",
+            style = MaterialTheme.typography.h5)
+            Text(text = "$134",
+            style = MaterialTheme.typography.h4)
         }
     }
 }
+
+//not yet finished
